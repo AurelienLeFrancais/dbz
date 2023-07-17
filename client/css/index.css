@@ -1,0 +1,131 @@
+html,
+body {
+    background-image: url("../img/FondEcranConnexion.png");
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+.sign-in-input-group {
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 300px;
+    position: relative;
+}
+
+input {
+    display: flex;
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input::placeholder {
+    color: brown;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    color: #FF9933;
+    font-weight: 600;
+}
+
+input[type=password] {
+    color: #FF9933;
+    font-weight: 600;
+}
+
+.sign-in-input-group button {
+    margin-top: 5px;
+    width: 120px;
+    margin: auto;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 37%;
+    background-color: rgb(199, 176, 212);
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+}
+
+.boule_1 {
+    background-image: url('../img/etoile1.png');
+    background-size: cover;
+    width: 89px;
+    height: 90px;
+    position: absolute;
+}
+
+.boule_2 {
+    background-image: url('../img/etoile2.png');
+    background-size: cover;
+    width: 89px;
+    height: 90px;
+    position: absolute;
+}
+
+.boule_3 {
+    background-image: url('../img/etoile3.png');
+    background-size: cover;
+    width: 89px;
+    height: 90px;
+    position: absolute;
+}
+
+.boule_4 {
+    background-image: url('../img/etoile4.png');
+    background-size: cover;
+    width: 89px;
+    height: 90px;
+    position: absolute;
+}
+
+.boule_5 {
+    background-image: url('../img/etoile5.png');
+    background-size: cover;
+    width: 89px;
+    height: 90px;
+    position: absolute;
+}
+
+.boule_6 {
+    background-image: url('../img/etoile6.png');
+    background-size: cover;
+    width: 89px;
+    height: 90px;
+    position: absolute;
+}
+
+.boule_7 {
+    background-image: url('../img/etoile7.png');
+    background-size: cover;
+    width: 89px;
+    height: 90px;
+    position: absolute;
+}
+
+.dragon {
+    background-image: url('../img/dragon.png');
+    background-size: cover;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    opacity: 1;
+}
+
+#api-message {
+    color: blue;
+    
+    
+}

@@ -1,0 +1,135 @@
+html,
+body {
+    background-image: url("../img/fondEcranGame.png");
+    position: relative;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#game {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+}
+
+#your-life {
+    position: absolute;
+    border-radius: 30px;
+    width: 300px;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    right: 30px;
+    top: 20px;
+    text-align: center;
+    color: #FF9933;
+    font-weight: 600;
+}
+
+#enemy-life {
+    border-radius: 30px;
+    position: absolute;
+    width: 300px;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    right: 30px;
+    top: 60px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+#attack-1 {
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+
+    position: absolute;
+    width: 200px;
+    left: 10px;
+    text-align: center;
+    top: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgba(252, 252, 48, 0.5);
+
+    font-weight: 600;
+
+}
+
+#attack-2 {
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 200px;
+    left: 10px;
+    text-align: center;
+    top: 100px;
+    cursor: pointer;
+    background-color: rgba(255, 153, 51, 0.5);
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+#attack-3 {
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    position: absolute;
+    width: 200px;
+    left: 10px;
+    text-align: center;
+    top: 150px;
+    cursor: pointer;
+    background-color: rgba(255, 51, 52, 0.5);
+    font-weight: 600;
+
+}
+
+#game-lost {
+    position: absolute;
+    background-image: url('../img/gokuDie.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    font-size: 20px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    left: 25%;
+    top: 200px;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: rgba(29, 27, 25, 0.8);
+
+}
+
+#game-win {
+    position: absolute;
+    background-image: url('../img/win.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    font-size: 20px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    left: 25%;
+    top: 200px;
+    font-family: "Segoe print", Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.979);
+}
+
+
+.explosion {
+
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/fume.gif');
+    background-size: cover;
+    position: absolute;
+}
+
+.gokuRepos {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    position: absolute;
+}
